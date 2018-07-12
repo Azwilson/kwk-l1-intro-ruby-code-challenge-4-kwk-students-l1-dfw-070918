@@ -32,7 +32,7 @@ while coins >= 1
 end 
 
 
-puts 29
+
  
 
 
