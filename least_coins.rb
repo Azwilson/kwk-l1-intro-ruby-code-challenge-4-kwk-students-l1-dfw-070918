@@ -14,12 +14,12 @@ end
 while coins >= 10
  least_coins_hash[:dimes]+= 1 
  coins = coins-10
- end
+end
 
 while coins >=
   least_coins_hash[:nickels]
   coins = coins-5 
-  end
+end
 
 while coins >= 1
  least_coins_hash[:pennies]+= 1 
