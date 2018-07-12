@@ -8,6 +8,8 @@ least_coins_hash = {
 
 loop do 
   "29"
+  
+ counter = 0
 while coins >= 25
  least_coins_hash[:quarters]+= 1
  coins = coins-25
