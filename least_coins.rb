@@ -29,6 +29,8 @@ while coins >=
 while coins >= 1
  least_coins_hash[:pennies]+= 1 
  coins = coins-1
+end 
+
 
 puts 29
  
