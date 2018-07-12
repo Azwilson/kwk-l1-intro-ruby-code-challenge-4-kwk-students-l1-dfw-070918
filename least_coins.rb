@@ -9,7 +9,7 @@ def least_coins(coins)
 0}
  
  while coins >= 25
- least_coins_hash[:quarters] += 1
+ cents[:quarters] += 1
  coins = coins-25
  end
  
