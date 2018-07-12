@@ -31,8 +31,6 @@ while coins >= 1
  coins = coins-1
 
 puts 29
-
-end
  
 
 
