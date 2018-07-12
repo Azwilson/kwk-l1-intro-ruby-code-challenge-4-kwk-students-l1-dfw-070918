@@ -6,8 +6,8 @@ least_coins_hash = {
 }
 
 
-loops 
-  "29"
+loop do least_coins(29)
+  coins = 29
   
  counter = 0
 while coins >= 25
