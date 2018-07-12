@@ -6,7 +6,7 @@ least_coins_hash = {
 }
 
 
-loop do 
+loops 
   "29"
   
  counter = 0
