@@ -14,23 +14,25 @@ def least_coins(coins)
  end
  
  while coins >= 10
- least_coins_hash[:dimes] += 1 
+ cents[:dimes] += 1 
  coins = coins-10
  end
 
  while coins >= 5
-  least_coins_hash[:nickels] += 1
+  cents[:nickels] += 1
   coins = coins-5 
  end
 
  while coins >= 1
- least_coins_hash[:pennies] += 1 
+ cents[:pennies] += 1 
  coins = coins-1
  end 
+
+return cents
 end
 
 
- 
+ least_coins(29)
 
 
 
