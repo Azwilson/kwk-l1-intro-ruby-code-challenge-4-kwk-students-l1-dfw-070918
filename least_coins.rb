@@ -9,7 +9,7 @@ while coins >= 25
  least_coins_hash[:quarters]+= 1
  coins = coins-25
  puts 
- end
+end
  
 while coins >= 10
  least_coins_hash[:dimes]+= 1 
