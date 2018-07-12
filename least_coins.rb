@@ -5,6 +5,7 @@ least_coins_hash = {
   :pennies => 1
 }
 
+
 while coins >= 25
  least_coins_hash[:quarters]+= 1
  coins = coins-25
@@ -26,10 +27,10 @@ while coins >= 1
  coins = coins-1
 
 puts 29
- end
 end
+ 
 
- least_coins(29)
+
 
 
 
